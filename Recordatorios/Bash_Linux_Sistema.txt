@@ -1,0 +1,7 @@
+sudo #Super user Does Permiso del administrador
+Grep #Global Regular Expression Print busca un string con en todos los archivos de la carpeta indicada
+Pgrep #Process grep Busca el Id de un proceso que se este ejecutando
+Kill #Kill termina un proceso abruptamente
+kill -stop # detiene indefinidamente un proceso
+kill -cont #re opera un proceso
+adduser # Add User agrega un nuevo usuario
