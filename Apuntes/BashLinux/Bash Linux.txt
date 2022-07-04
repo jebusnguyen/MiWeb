@@ -1,0 +1,16 @@
+man 
+cd # change directory Cambiar de directorio cd + nombre de carpeta destino
+cd .. ir a carpeta anterior
+pwd # print working directory- Indica donde en cual directorio estas
+ls # List- Enlista los elementos del directorio
+mkdir #Make directory - Crea un directorio mkdir + nombre de directorio nuevo
+touch # touch with your fingers- crea un nuevo archivo touch + nombre archivo nuevo
+rm #Remove- Elimina archivos rm + nombre archivor para eliminar 
+rm - r # ejecuta un recursivo para eliminar todo
+rmdir # remove directory- elimina directorios (solo vacios) rmdir + nombre de directorio
+cat # Concatenate- crea un string con la info en un archivo y permite leerlo desde terminal
+more # crea un prompt que permite leer un archivo 
+cp #copy Copia un archivo y lo agrega a un nuevo directorio cp + nombre de archivo + ..(orden para salir de carpeta)/ mombre carpeta receptora
+cp -r # ejecuta un recursivo apara copiar un directorio y todos sus elementos
+mv # Move mueve un archivo de un directorio a otro mv + nombre archivo + ../nombre directorio receptor
+mv # igual sirve para cambiar de nombre un archivo mv + nombre archivo + nombre archivo nuevo
