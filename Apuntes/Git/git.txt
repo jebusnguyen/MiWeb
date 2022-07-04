@@ -1,0 +1,22 @@
+git status # muestra archivos y tareas desactualizadas
+    con git status -s observas de manera resumida y sencilla los cambios pendientes
+git add # agrega los cambios realizados en archivos y carpetas
+ estos pueden ser delete, rename
+    con git add . agregas todos los cambios 
+    con git add *.txt agregas todos los cambios que tengan la extension final .txt
+    git add (nombre archivo o carpeta) es la manera mas ordenada y solo sube un archivo cambiado
+git restore# permite cancelar cambios y volver al archivo guardado previamente
+git commit # confirma los datos y los nombra como version o agrega comentarios
+    la forma mas comoda de ejecutar este comando es con
+    git commit -m "texto"
+podemos crear un archivo que muestre que rutas, archivos y carpetas deben ser ignorados este se llama .gitignore 
+git dif# muestra todos los cambios que se hicieron en un archivoy necesitan aprobacion
+git log# muestra todos los cabios guardados despues de ser confirmados
+    junto con el mensaje que escribimos 
+git branch# muestra las ramas que contiene git 
+git checkout-b "nombre rama" # crea una nueva rama si no existe una con el nombre deseado
+    y si existe cambia la rama de trabajo a ella
+git merge # agrega cambios realizados en una rama diferente a la principal
+    que en este caso se llama master
+git push # envia los cambios realizados y aprobados a la nube (en este caso github)
+necesitas el nombre de usuario y el token de seguridad
