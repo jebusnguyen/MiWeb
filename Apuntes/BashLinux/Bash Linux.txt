@@ -3,10 +3,18 @@ cd # change directory Cambiar de directorio cd + nombre de carpeta destino
 cd .. ir a carpeta anterior
 pwd # print working directory- Indica donde en cual directorio estas
 ls # List- Enlista los elementos del directorio
+ls -l Long Muestra aun mas detalles de los elementos dentro del directorio a mostrar
+ls -l -lh Human muestra la informacion de forma mas amigable (por ejemplo el tamaño del archivo)
+ls -la Muestra incluso los archivos ocultos (linux marca los archivos ocultos con u punto)
+ls -lS Ordena todo los elementos por tamaño
+ls - lr ordena contrario al orden alfabetico
+tree #muestra todo los elementos del directorio en forma de arbol
+tree -L #level- niveles tree -L # numero de niveles
 mkdir #Make directory - Crea un directorio mkdir + nombre de directorio nuevo
 touch # touch with your fingers- crea un nuevo archivo touch + nombre archivo nuevo
 rm #Remove- Elimina archivos rm + nombre archivor para eliminar 
 rm - r # ejecuta un recursivo para eliminar todo
+rm -i #interactive te pregunta si estas seguro de borrar
 rmdir # remove directory- elimina directorios (solo vacios) rmdir + nombre de directorio
 cat # Concatenate- crea un string con la info en un archivo y permite leerlo desde terminal
 more # crea un prompt que permite leer un archivo 
@@ -14,3 +22,13 @@ cp #copy Copia un archivo y lo agrega a un nuevo directorio cp + nombre de archi
 cp -r # ejecuta un recursivo apara copiar un directorio y todos sus elementos
 mv # Move mueve un archivo de un directorio a otro mv + nombre archivo + ../nombre directorio receptor
 mv # igual sirve para cambiar de nombre un archivo mv + nombre archivo + nombre archivo nuevo
+file Sirve para describir un archivo
+head #Cabecera muestra las primeras 10 lineas de un archivo de texto
+head nombre -n # muestra el numero n de lineas que desees
+tail #Muestra las ultimas 10 lineas de texto (igualmente puede usar n)
+less # Es el mejor comando para leer de forma interactiva archivos de texto completos / permite hacer busquedas
+xdg-open abre el editor de texto prederteminado en forma de proceso
+ctrl+c mata procesos abiertos en el bash
+nautilus abre una carpeta en la interfaz grafica
+echo # manda directamente el Stdout de un comando a la terminal 
+cal # Calendar muestra un calendario en terminal

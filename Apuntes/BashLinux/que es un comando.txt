@@ -1,0 +1,12 @@
+Un comando puede ser 4 cosas
+    Un programa ejecutable se encuentran /bin
+    Una funcion dentro de shell
+    Una funcion externa de shell
+    Un alias Es un comando temporal creado por uno mismo 
+
+
+type te muestra que tipo de comando es 
+help Te da info sobre el comando deseado
+man Es mas util que help por que te da ejemplos de uso
+info es mas resumido que man 
+what is es un resumen corto 

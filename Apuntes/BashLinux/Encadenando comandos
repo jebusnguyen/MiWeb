@@ -1,0 +1,14 @@
+Los operadores de control permiten ejecutar mas de un comando o encadenarlos 
+
+1.- De manera Sincrona se usa ;
+ls ; mkdir holi; ls-- muestra los elementos de ls despues crea la carpeta holi y al final vuelve a mostrar los elementos
+
+2.- De manera paralela &
+ls & date & cal --- mientras muestra los elemento, muestra la fecha y un calendario
+
+3.- de manera condicional && 
+mkdir OLvidable && cd OLvidable && touch HolaTu.txt --- Crea un directorio llamado olvidable metete a el y por ultimo crea un .txt llamado HolaTu
+Si algu comando lanza error detiene el proceso
+
+4.- Verificada || 
+No es necesaria que todos los comandos no lancen error

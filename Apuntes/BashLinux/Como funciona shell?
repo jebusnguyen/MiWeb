@@ -1,0 +1,8 @@
+El Shell maneja todo con el siguiente orden
+                            ----------- Stdout/ 1 ----- Ejecuta correctamente el comando (Standar output)
+TECLADO ---- Stdin/ 0 ---------
+            (Estandar Input) ----------- StdErr/ 2 ----- No se ejecuta nada y lanza un error (Standar error)
+        NO SIEMPRE ES EL TECLADO
+        PUEDE SER UN ARCHIVO DE texto
+
+Shell describe cada uno de estos pasos con un codigo llamado file descriptor 

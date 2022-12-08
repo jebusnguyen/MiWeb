@@ -1,0 +1,4 @@
+- Un archivo normal
+d Un directorio
+l Link simbolico
+b Archivo de bloque especial por ejemplo un USB (son raros)

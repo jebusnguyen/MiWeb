@@ -1,0 +1,16 @@
+Recordando como funciona shell al ejecutar un comando tu puedes recibir un error o la accion solicitada
+por lo tanto tu puedes por medio del simbolo > mandar esa respuesta de la terminal a un archivo de texto
+
+    ls Miweb > ArchivosMiWeb.txt Con este comando estas pidiendo que se crea un archivo de texto de nombre ArchivosMiweb y que en el se publique los resultados del comando ls Miweb
+
+Tambien es posible hacerlo con errores pero recordando que el sistema le asigna un filocode 2 a los errores hay que describirlo en el mismo comando
+
+    ls ljfkdfsja 2> Error1.txt Con este comando estas mandando que el error mostrado en la terminal se guarde en un archivo de texto Error1.txt
+
+Pipe operator
+
+Con esta funcion la terminal puede mandar el resultado de un Stdout como un nuevo comando para el stdin y asi crear nuevas funcionalidad y concatenamientos
+
+ls -lh | less Muestra con un ls y despues lo manda como un Stdout a leer eatravez de un less (sin tener que crear u .txt)
+
+

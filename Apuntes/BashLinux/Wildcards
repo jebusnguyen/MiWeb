@@ -1,0 +1,10 @@
+las wildcards son subcomandos de ls que ayudan a realizar busquedas avanzadas de TODOS los elementos hasta 2 niveles
+Se inicia con el comando ls 
+    ls *.txt Con este agregado a ls le estas pidiendo a shell que busque coincidencias que tengan .txt
+    ls (nombre)* con este comando le estas pidiendo a shel que busque la palabra nombre y que este acompañado de algun otro caracter
+    ls (nombre)? Estas pidiedo que busque la palabra nombre y que tenga exclusivamente un caracter al final
+    ls [[:upper:]]* Con este comando pides que muestre todos los elementos que inicien con mayusculas
+    ls -d Aqui limita la busqueda exclusivamentea directorios
+    ls [[:lower:]]* Con este comando busca archivos que inicien con minusculas
+    ls [ad]* con este comando muestra archivos que inicien con a y tambien los que inician con i
+    
