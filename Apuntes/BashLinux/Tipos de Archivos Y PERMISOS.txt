@@ -1,0 +1,51 @@
+- Un archivo normal
+d Un directorio
+l Link simbolico
+b Archivo de bloque especial por ejemplo un USB (son raros)
+
+Hay tres tipos de usuarios en bash 
+    Usuario - u , grupal - g  y otros - o 
+
+Y tambien hay 3 clases de permisos
+    r - Lectura
+    w - escritura 
+    x - ejecucion
+
+al usar ls -l la terminal muestra los perimsos de los archivos en el directorio donde se esta trabajando
+
+por ejemplo al leer un archivo de texto con ls -ls se veria archivos
+          -      ---        ---        --- 
+        tipo    usuario    gRUPO       otros
+
+Para cambiar permisos hay 2 formas ambas usan el comando CHMOD
+    
+    Metodo octal
+Octal Valor      R      W       X 
+     0           -      -       -
+     1           -      -       X
+     2           -      W       -
+     3           -      W       X
+     4           R      -       -
+     5           R      -       X
+     6           R      W       -
+     7           R      W       X
+
+Tips 
+
+Centrate en que 
+    R = 4, X = 1 y W = 2
+Los demas numeros son combinaciones de estos 3 numeros
+
+Por ejemplo para cambiar los permisos de un directorio:
+este saldria por default así:
+    drwxrwxr-x 
+Para cambiar los permisos primero tendrias que ir al directorio y ejecutar
+SUDO                CHMOD     XXX (numero dependiendo del permiso)                               (nombre)
+Ejecutar           Comando    _         _       _ 
+Super usuario                 usuario   Grupo   Todos           Nombre del Archivo 
+
+La otra forma un poco mas amigable es:
+    tipo de usuario (u,g,o) + o - (agrega o quita permisos) tipo de permiso(RWX)
+
+sudo chmod u-x, go-w (nombre archivo) Con este comando quite el permiso de ejecucaion al usuario y les agregue el permiso de escritura al grupo y a los otros
+
