@@ -1,0 +1,17 @@
+Es un comando superpotente dentro de linux
+permite generar busquedas desntro de archivos de texto 
+
+GREP -- Regular Expresion Print 
+
+para ejecutarlo
+
+grep (expresion regular) (nombre de archivo)
+
+Algunas expresiones regulares son
+
+-i realiza la busqueda ignorando mayusculas y minusculas
+
+-c  realiza muestra el numero de elementos que coinciden con la busqueda
+
+-v realiza la busqueda de que muestre los elementos no coincidan con la busqueda
+

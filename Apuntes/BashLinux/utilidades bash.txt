@@ -1,0 +1,31 @@
+Utilidades de Red 
+
+ifconfig --- nos muestra informacion de red 
+ping ---- nos muestra si una pagina esta activa
+    se ejecuta un proceso permanente hay que cerrarlo 
+curl --- importa archivos de texto de la red
+    curl (url pagina objetivo)
+wget --- descarga el archivo directamente de la pc 
+traceroute --- muestra todas las ip de los servidores que visitas para llegar a una pagina web especifica
+netstat -i --- muestra los dispositivos de red
+
+Compresor de archivos
+
+tar (subcomando) (nombre de archivo final con la extension de la compresion usada) (nombre de la carpeta a comprimir)-- comprime en formato tar
+    -c comprime 
+    -v muestra el procesos
+    -f el tipo de archivo a comprimir 
+    -z comprimir en formato gzip y al final agregar .gz 
+    -x Descomprime 
+
+zip -r (Nombre compreso.zip) (Carpeta a comprimir) --- comprime en formato zip
+unzip descompre 
+
+
+Sistema 
+
+ps ---- muestra los procesos y comandos que se estan ejecutando  y sus id 
+kill (id proceso) --- mata el proceso 
+top --- Muestra los procesos que jalan mas recursos
+    usando h nos muestra un menu para filtrar procesos 
+    

@@ -1,0 +1,30 @@
+which -- Nos ayuda a buscar en todas las rutas del path un binario
+
+which code ------ por ejemplo nos muestra la ruta donde esta instalado vscode
+
+
+find -- Es un buscador de archivos 
+
+Puedes buscar por nombre, y tipo y tamaño
+
+Nombre
+find (ruta) -name (parametros de busqueda)
+
+Tipo 
+find (ruta) -type fd (f file y d directory) -name (parametros de busqueda)
+Para buscar en toda la computadora se usa la direecion ./
+
+tamaño
+find (ruta) -size (tamaño en bytes k m g) 20m (archivos que pesan mas de 20 Megabytes)
+
+Con find puedes usar wildcards se recomienda atravez de um pipe leer la exportacion de ese comando 
+con un less para usar mas herramientas de busqueda atravez de ls- l
+
+Para ver un resumen de un archivo sin la necesidad de abrirlo usamos wc 
+al ejecutarlo junto con el nombre del archivo nos muestra:
+
+----     ----      -----            nombre archivo
+Lineas Caracteres   bits
+
+Tambien existe un comando llamado exec puede crear una busqueda y despues ejecutar un comando con esos archivos 
+
